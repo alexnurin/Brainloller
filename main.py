@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import cv2 # нужно поставить себе cv2 через conda install opencv
+import cv2
 import numpy as np
 
 

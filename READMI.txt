@@ -1,3 +1,7 @@
-Работает только в юпитере(
-патамучта там норм чтение и вывод картинок
-Рано или поздно исправлю
+В main.py пример
+Разберётесь)))
+
+Встроенный brainhack compiler/decompiler пока не написал, юзайте онлайн.
+Например - эти:
+https://copy.sh/brainfuck/text.html    (string -> bf code)
+https://copy.sh/brainfuck/   (bf code -> string)
