@@ -88,10 +88,13 @@ def decode(img):
 
 
 def main():
-    print("Example:")
-    code = '-[------->+<]>+++.+[--->+<]>.+++.-------------.++++++++.[->+++++<]>-.-[--->++<]>-.+++++++.+++.++.--------.'
-    encode("jojo.png", code)
-    print(decode("jojo_encoded.png"))
-
+    cmd = int(input("1 = img->code\n2 = code->img\n"))
+    if cmd == 1:
+        name = input("Full path to image:\n")
+        print(decode(name))
+    else:
+        code = input("Code:\n")
+        name = input("Select image name:\n")
+        print(encode("{}".format(name), code))
 
 main()
